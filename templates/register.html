@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Animal Care</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <style>
+        .brand{
+            font-weight: bold;
+            font-size: 1.5em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        .icon{
+    height: 100px;
+    border-radius: 50%;
+  }
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img  class="icon" src="../static/images/icon.png" alt="Animal Care Logo" class="logo">
+            <h1 class="brand">HOSPET</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Register</h2>
+            <form id="registerForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <button type="submit">Register</button>
+            </form>
+            <section class="benefits">
+                <h3>Benefits of Registering</h3>
+                <ul>
+                    <li>Access to personalized animal care tips</li>
+                    <li>Track your pet's medical history</li>
+                    <li>Receive notifications for upcoming vaccinations</li>
+                    <li>Join our community of animal lovers</li>
+                </ul>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Animal Care | <a href="contact.html">Contact Us</a></p>
+        </div>
+    </footer>
+    <script src="../static/js/scripts.js"></script>
+</body>
+</html>
